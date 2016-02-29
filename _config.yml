@@ -3,9 +3,9 @@ permalink:           pretty
 
 # Setup
 title:               zacharytamas
-tagline:             The Jekyll Butler
+tagline:             "@zacharytamas"
 url:                 http://zacharytamas.com
-paginate:            1
+paginate:            3
 baseurl:             ""
 
 # Assets

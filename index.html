@@ -1,7 +1,21 @@
 ---
 layout: default
 title: Home
+bodyClass: 'front'
 ---
+
+<section>
+  <h1>Hello, I'm Zachary.</h1>
+  <p>I'm a full-stack developer and designer living in Atlanta. I work as a contractor providing full-stack and mobile development consulting. I've been working on the web for over ten years now and have worked with many awesome companies on many awesome products. For a longer bio, you can <a href="/about/">check this out</a>.</p>
+</section>
+
+<section class="callout">
+  <h2>Want to work together?</h2>
+
+  <p>If you'd like to check out my work or get in touch professionally, please check out <a href="/hire-me/">my hiring page</a>.</p>
+
+</section>
+
 
 <div class="posts">
   {% for post in paginator.posts %}
@@ -14,12 +28,11 @@ title: Home
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
   </article>
   {% endfor %}
 </div>
 
-<div class="pagination">
+<!-- <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
   {% else %}
@@ -30,4 +43,4 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->
