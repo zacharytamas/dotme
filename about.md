@@ -1,30 +1,38 @@
 ---
 layout: page
-title: About
+title: About Me
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I'm a curious twentysomething with a healthy obsession with the power of ideas and what can be done with them. It just so happens that in today's world, most powerful ideas fuel technology, and so that is where my primary interests lie.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<div class="pullout image">
+  <img src="/public/about-me/me.jpg" alt="Me during my first White Christmas at 23." width="100%">
+  <p class="caption">Me during my first White Christmas at 23.</p>
+</div>
 
-There are currently two themes built on Poole:
+I attended high school in my 4.1 sq mi hometown of [Chipley, Florida](http://en.wikipedia.org/wiki/Chipley,_Florida) where I graduated High Honors. From there I went to nearby community college [Chipola College](http://chipola.edu/) where I got my start in the traditional college classes (though I had dual-enrolled during my Sophomore, Junior, and Senior years of high school). Following Chipola I spent a year at the [University of West Florida](http://uwf.edu/) studying Computer Science.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+After school, I moved to the Pittsburgh, PA area to be with my now-fianc&eacute;e Chelsea (she's pretty awesome). There I became involved in the startup community, attending [Startup Weekend PGH](http://pgh.startupweekend.org/) regularly while contracting as a Developer/Designer with several startups including many remote startups from around the globe.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+When I'm not working [I enjoy reading](http://www.amazon.com/gp/registry/wishlist/13QST9BFBX680/) and studying design, my latest endeavor. I don't game nearly as often as I'd like to (not for lack of time, but more from simply not taking the time), and I play acoustic and electric guitar on occasion. My fianc&eacute;e attended an Arts high school and has played violin in several symphony orchestras, so collaborating is definitely something we'd like to get around to doing.
 
-## Setup
+<!--<div class="pullout image">
+  <img src="/public/about-me/ohio.jpg" alt="Ohio" width="100%">
+  <p class="caption">Passing through Ohio on my drive to Kansas City.</p>
+</div>-->
 
-Some fun facts about the setup of this project include:
+I'd like to travel more, and have made three ~1,000 mile solo non-stop drives in the past two years alone. They were rushed, purely Point A to Point B drives, though. I plan to travel more frivolously and deliberately in the future once life allows.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+---
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## Me in other places
 
-Thanks for reading!
+Generally I use the username `zacharytamas` everywhere I have an account, so naturally:
+
+* [@zacharytamas](http://twitter.com/zacharytamas)
+* [GitHub](http://github.com/zacharytamas)
+* [LinkedIn]({{ site.links.linked_in }})
+* [Treehouse](http://teamtreehouse.com/zacharytamas)
+
+**Fast Fact**: I use zacharytamas these days simply because I have for 13+ years online. Tamas in my middle name and at an early age I discovered zacharyjones was usually taken but zacharytamas never was.
