@@ -1,0 +1,48 @@
+---
+layout: front
+title: Hire Me
+bodyClass: 'front'
+---
+
+<section><h1>Hiring Me</h1>
+
+  <p>Hello, I'm <a href="/">Zachary</a>. I work as a freelancer providing full-stack development and front-end performance consulting with companies of all sizes, as well as some design work.</p>
+
+  <p>I have over ten years' experience building on the web with <a href="#skills">all kinds of technologies</a>. Over my career I've been fortunate to work with several great companies,&nbsp;including:</p>
+
+  <p><img src="/public/hire-me/logos.png" width="100%"></p>
+
+</section>
+
+<section class="callout">
+  <h3>Availability</h3>
+
+  <link href="//static.cushionapp.com/availability.css" rel="stylesheet">
+  <script src="//static.cushionapp.com/availability.js"
+    data-user="601f56a0-683f-4973-976f-88c923334c60"></script>
+
+  <p>I am currently <mark data-availability-badge></mark>. If you'd like to work together, please <a href="mailto:zacharytamas@gmail.com?subject=I'd like to hire you">shoot me an email</a> with some details about what you'd like to build.</p>
+
+</section>
+
+<section id="skills"><h1>Skills</h1>
+
+  <h4>I have a very particular set of skills, including:</h4>
+
+  <dl>
+    {% for skill in site.data.skills %}
+      <dd class="skill">
+        <div class="skill-level">
+          <span class="meter" style="width: {{ skill.strength }}%"></span>
+        </div>
+        <span class="skill-duration">{% if skill.years %}{{ skill.years }} years{% endif %}</span>
+        <span class="skill-name">{{ skill.name }}</span>
+      </dd>
+    {% endfor %}
+  </dl>
+
+  <p>
+    <b>Other technologies I'm familiar with include</b> {{ site.data.lesserSkills | sort | array_to_sentence_string }}.
+  </p>
+
+</section>

@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               zacharytamas
-tagline:             "@zacharytamas"
+# tagline:             "@zacharytamas"
 url:                 http://zacharytamas.com
 paginate:            3
 baseurl:             ""
@@ -24,7 +24,8 @@ author:
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/zacharytamas/dotme
+analytics_id:        UA-11164103-5
 
 # Gems
 gems:

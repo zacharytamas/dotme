@@ -1,0 +1,30 @@
+
+- name: "HTML &amp; CSS"
+  strength: 100
+  years: 12
+
+- name: "Python (with Django)"
+  strength: 100
+  years: 9
+
+- name: "JavaScript"
+  strength: 100
+  years: 4
+
+- name: "Polymer.js"
+  years: 2
+  strength: 100
+
+- name: "Google Cloud Services"
+  strength: 95
+  years: 1.5
+
+- name: "Backbone.js"
+  years: 3
+  strength: 90
+
+- name: "Design"
+  strength: 90
+
+- name: "Android (Java)"
+  strength: 60

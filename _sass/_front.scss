@@ -2,5 +2,21 @@
 body.front {
   background: $background;
   color: rgba(0, 0, 0, .5);
+  margin-top: 4rem;
+
+  ul.writings {
+    li.older {
+      font-weight: bold;
+      a {
+        color: $green;
+      }
+    }
+  }
+
+  section.callout {
+    margin: 0 -1rem;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, .5);
+  }
 
 }

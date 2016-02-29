@@ -1,0 +1,25 @@
+dd.skill {
+  margin-left: 0;
+
+  .skill-duration {
+    float: right;
+    font-style: italic;
+  }
+
+  .skill-name {
+    font-weight: 600;
+  }
+
+  .skill-level {
+    background: #bbb;
+    height: 1.5rem;
+    margin: .75rem 0 .25rem;
+
+    .meter {
+      background: $orange;
+      height: 100%;
+      display: block;
+      // .transition(~"all 1.0s linear");
+    }
+  }
+}
