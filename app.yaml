@@ -10,8 +10,43 @@ handlers:
   static_files: _site/index.html
   upload: _site/index.html
 
-- url: /
-  static_dir: _site/
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: _site/\1
+  upload: _site/(.*\.html)
+  expiration: "1h"
+
+- url: /(.*\.css)
+  mime_type: text/css
+  static_files: _site/\1
+  upload: _site/(.*\.css)
+
+- url: /(.*\.ico)
+  mime_type: image/x-icon
+  static_files: _site/\1
+  upload: _site/(.*\.ico)
+  expiration: "7d"
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: _site/\1
+  upload: _site/(.*\.js)
+
+# image files
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: _site/\1
+  upload: _site/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+
+- url: /(.+)/
+  static_files: _site/\1/index.html
+  upload: _site/(.+)/index.html
+  expiration: "15m"
+
+- url: /(.+)
+  static_files: _site/\1/index.html
+  upload: _site/(.+)/index.html
+  expiration: "15m"
+
 
 libraries:
 - name: jinja2
