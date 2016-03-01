@@ -17,6 +17,15 @@ body.front {
     clear: right;
   }
 
+  p {
+    span.last-paragraph {
+      @media (min-width: $large-breakpoint) {
+        display: block;
+        margin-top: 1rem;
+      }
+    }
+  }
+
   figure.self-photo {
     margin: 0;
     margin-left: 1rem;

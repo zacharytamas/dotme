@@ -39,7 +39,9 @@ a {
   // `:focus` is linked to `:hover` for basic accessibility
   &:hover,
   &:focus {
-    text-decoration: underline;
+    border-bottom: 1px $link-color solid;
+    // transition-property: border;
+    // transition-duration: 0.4s;
   }
 
   strong {
