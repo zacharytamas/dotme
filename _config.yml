@@ -4,8 +4,8 @@ permalink:           pretty
 # Setup
 title:               zacharytamas
 # tagline:             "@zacharytamas"
-url:                 http://zacharytamas.com
-paginate:            3
+url:                 http://zacharytamas.me
+paginate:            4
 baseurl:             ""
 
 # Assets
@@ -20,11 +20,12 @@ author:
   name:              Zachary Jones
   url:               https://twitter.com/zacharytamas
   email:             zacharytamas@gmail.com
+elsewhere:
+  twitter:           https://twitter.com/zacharytamas
+  github:            https://github.com/zacharytamas
+  instagram:         https://instagram.com/zacharytamas
 
 # Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/zacharytamas/dotme
 analytics_id:        UA-11164103-5
 
 # Gems
