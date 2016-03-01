@@ -13,6 +13,21 @@ body.front {
     }
   }
 
+  section {
+    clear: right;
+  }
+
+  figure.self-photo {
+    margin: 0;
+    margin-left: 1rem;
+    float: right;
+    max-width: 12rem;
+
+    @media (max-width: $large-breakpoint) {
+      display: none;
+    }
+  }
+
   section.callout {
     margin: 0 -1rem;
     padding: 0.5rem 1rem;
