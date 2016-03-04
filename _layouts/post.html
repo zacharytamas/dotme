@@ -6,7 +6,13 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
   {{ content }}
+
+  <div class="post__social">
+    <a href="https://twitter.com/zacharytamas" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @zacharytamas</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
 </article>
+
 
 {% if site.related_posts != empty %}
 <aside class="related">
